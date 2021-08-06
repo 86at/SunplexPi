@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <UserSecretsId>aspnet-SunplexPi-5B63B490-7A5C-4781-BCDD-6A4FBBB11348</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Update="app.db" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="5.0.7" />
+        <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.7" />
+        <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="5.0.7" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="5.0.7" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.7" />
+        <PackageReference Include="Microsoft.Extensions.Hosting.Systemd" Version="5.0.1" />
+    </ItemGroup>
+
+</Project>
